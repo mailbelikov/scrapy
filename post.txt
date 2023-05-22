@@ -1,0 +1,70 @@
+Авторизация
+
+Frame 19: 88 bytes on wire (704 bits), 88 bytes captured (704 bits) on interface \Device\NPF_{54446CAA-3D59-4C15-B967-16AFB4A24052}, id 0
+Ethernet II, Src: Dell_0f:0a:f4 (d0:8e:79:0f:0a:f4), Dst: Charge-A_02:44:ca (4c:bc:98:02:44:ca)
+Internet Protocol Version 4, Src: 192.168.0.10, Dst: 192.168.0.1
+Transmission Control Protocol, Src Port: 30542, Dst Port: 80, Seq: 242, Ack: 1, Len: 34
+[2 Reassembled TCP Segments (275 bytes): #18(241), #19(34)]
+Hypertext Transfer Protocol
+    POST /goform/goform_set_cmd_process HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /goform/goform_set_cmd_process HTTP/1.1\r\n]
+        Request Method: POST
+        Request URI: /goform/goform_set_cmd_process
+        Request Version: HTTP/1.1
+    Host: 192.168.0.1\r\n
+    User-Agent: python-requests/2.28.1\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept: */*\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 34\r\n
+    Content-Type: application/x-www-form-urlencoded\r\n
+    \r\n
+    [Full request URI: http://192.168.0.1/goform/goform_set_cmd_process]
+    [HTTP request 1/1]
+    [Response in frame: 23]
+    File Data: 34 bytes
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "goformId" = "LOGIN"
+        Key: goformId
+        Value: LOGIN
+    Form item: "password" = "YWRtaW4="
+        Key: password
+        Value: YWRtaW4=
+
+
+отключение WIFI
+
+Frame 110: 652 bytes on wire (5216 bits), 652 bytes captured (5216 bits) on interface \Device\NPF_{54446CAA-3D59-4C15-B967-16AFB4A24052}, id 0
+Ethernet II, Src: Dell_0f:0a:f4 (d0:8e:79:0f:0a:f4), Dst: Charge-A_02:44:ca (4c:bc:98:02:44:ca)
+Internet Protocol Version 4, Src: 192.168.0.10, Dst: 192.168.0.1
+Transmission Control Protocol, Src Port: 32345, Dst Port: 80, Seq: 1, Ack: 1, Len: 598
+Hypertext Transfer Protocol
+    POST /goform/goform_set_cmd_process HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /goform/goform_set_cmd_process HTTP/1.1\r\n]
+        Request Method: POST
+        Request URI: /goform/goform_set_cmd_process
+        Request Version: HTTP/1.1
+    Host: 192.168.0.1\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 36\r\n
+    Accept: application/json, text/javascript, */*; q=0.01\r\n
+    X-Requested-With: XMLHttpRequest\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52\r\n
+    Content-Type: application/x-www-form-urlencoded; charset=UTF-8\r\n
+    Origin: http://192.168.0.1\r\n
+    Referer: http://192.168.0.1/index.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7\r\n
+    \r\n
+    [Full request URI: http://192.168.0.1/goform/goform_set_cmd_process]
+    [HTTP request 1/1]
+    [Response in frame: 113]
+    File Data: 36 bytes
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "goformId" = "SET_WIFI_INFO"
+        Key: goformId
+        Value: SET_WIFI_INFO
+    Form item: "wifiEnabled" = "0"
+        Key: wifiEnabled
+        Value: 0
+
